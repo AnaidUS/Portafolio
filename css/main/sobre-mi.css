@@ -1,0 +1,32 @@
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__container{
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #fffdfd;
+}
+
+.about__title{
+    font-size: 3rem;
+    font-weight: 100;
+    text-decoration: solid;
+}
+
+.about__parrafo{
+    margin-top: 1.5rem;
+}
+
+.about__paragraph{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__firma{
+    width: 7rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}

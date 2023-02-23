@@ -1,0 +1,33 @@
+.skills{
+    background: #ffffff;
+}
+
+.skills__title{
+    font-size: 3rem;
+    font-weight: 100;
+    text-decoration: solid;
+    margin-bottom: 5rem;
+}
+
+.skills__line{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills__box{
+    
+}
+
+.skills__img{
+    list-style: none;
+    width: 5rem;
+    display: block;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.skills__name{
+    list-style: none;
+    width: 15rem;
+    display: block;
+}

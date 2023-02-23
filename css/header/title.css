@@ -49,10 +49,12 @@
 .title__network__item{
     display: flex;
     flex-wrap: wrap;
+    text-decoration: none;
     justify-content: space-evenly;
     flex-direction: row-reverse;
     margin-top: 2.55rem;
     margin-bottom: 2.5rem;
     margin-right: 3rem;
     width: calc(25% - 2.5rem);
+    text-decoration: none;
 }

@@ -1,13 +1,3 @@
-.head{
-    padding:0;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: #ffffff
-}
-
 .header{
     height: 65vh;
     background-image: linear-gradient(45deg, rgba(255, 154, 157, 0.400) 0%, rgba(250, 208, 196, 0.400) 99%, rgba(250, 208, 196, 0.400) 100%), url(../../img/arena.jpg);
@@ -15,4 +5,10 @@
     background-size: cover;
     background-attachment:fixed;
     background-position: center;
+    padding:0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
