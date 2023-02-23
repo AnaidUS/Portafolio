@@ -1,0 +1,34 @@
+.hobbies{
+    margin: 5rem 0;
+    padding: 0.025rem;
+    border: 0.25rem solid rgb(255, 255, 255);
+}
+
+.hobbies__title{
+    font-size: 3rem;
+    font-weight: 100;
+    text-decoration: solid;
+    margin-bottom: 5rem;
+}
+
+.hobbies__line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobbies__box{
+
+}
+
+.hobbies__img{
+    list-style: none;
+    width: 5rem;
+    display: block;
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+
+.hobbies__name{
+
+}
+

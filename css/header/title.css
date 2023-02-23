@@ -4,6 +4,7 @@
 
 .title__div{
     padding: 2.5rem;
+    margin: 0.1rem;
     display: flex;
     flex-direction:row-reverse;
     justify-content: space-between;
@@ -29,32 +30,42 @@
 
 .subtitulo{
     text-align: center;
-    font-weight: 200;
+    font-weight: 180;
     font-style: oblique;
     justify-content: space-evenly;
     color: rgb(10, 3, 27);
     box-shadow: 0, 0, 0, 0.75 rgb(10, 3, 27);
     margin-bottom: 40px;
     margin-top: 1.50rem;
+    margin-right: 1rem;
     font-size: 1.50rem;
 }
 
-.title__network{
+.title__network{ 
     display: flex;
-    justify-content: center;
     text-align: center;
-    margin-top: 6rem;
+    margin: 2.5rem 2rem;
+    justify-content: space-evenly
 }
 
 .title__network__item{
     display: flex;
     flex-wrap: wrap;
-    text-decoration: none;
-    justify-content: space-evenly;
     flex-direction: row-reverse;
     margin-top: 2.55rem;
     margin-bottom: 2.5rem;
     margin-right: 3rem;
     width: calc(25% - 2.5rem);
+}
+
+.enlace__icono{
     text-decoration: none;
+    font-size: 1.68rem;
+    color: rgb(0, 0, 0);
+}
+
+.icono{
+    width: 2rem;
+    padding:0.025rem;
+    margin: 1rem, 0.5rem, 0.8rem;
 }

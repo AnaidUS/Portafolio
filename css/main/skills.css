@@ -1,5 +1,10 @@
 .skills{
-    background: #ffffff;
+    background: rgb(253, 253, 253);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    width: calc(25% - 5rem);
 }
 
 .skills__title{
@@ -15,7 +20,9 @@
 }
 
 .skills__box{
-    
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 .skills__img{
