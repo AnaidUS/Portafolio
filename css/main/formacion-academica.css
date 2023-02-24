@@ -1,7 +1,5 @@
 .academic{
-    margin: 1.5rem 0;
-    padding: 0.025rem;
-    border: 0.25rem solid rgb(255, 255, 255);
+    align-items: center;
 }
 
 .academic__title{
@@ -9,6 +7,7 @@
     font-weight: 100;
     text-decoration: solid;
     margin-bottom: 5rem;
+    justify-content: center;
 }
 
 .academic__courses{
@@ -17,11 +16,26 @@
 }
 
 .academic__courses__box{
-
+    border-radius: 40px;
+    height: 100%;
+    padding: 25px 20px;
+    width: 90%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 15px 6px 69px -17px rgba(41,57,79,0.64);
+    -webkit-box-shadow: 15px 6px 69px -17px rgba(41,57,79,0.64);
+    -moz-box-shadow: 15px 6px 69px -17px rgba(41,57,79,0.64);
 }
 
 .academic__courses__list{
-
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 1rem;
 }
 
 .academic__courses__item__img{
@@ -33,7 +47,7 @@
 }
 
 .academic__courses__item__title{
-
+    
 }
 
 .academic__courses__item__subtitle{

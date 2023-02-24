@@ -17,7 +17,6 @@ body{
 main{
     width: 90%;
     max-width: 1200px;
-    overflow: hidden;
     margin: 3.5rem 4rem;
 }
 
