@@ -1,5 +1,7 @@
 .form__contato{
    display: flex; 
+   overflow: hidden;
+   flex-wrap: wrap;
 }
 
 .formcontato__contacto{
@@ -16,14 +18,21 @@
 }
 
 .formcontato__img{
-    width: 464px;
-    height: 493px;
+    width: 500px;
+    height: 400px;
+    padding: auto;
+    margin: auto;
+    border: 1px solid #FFFFFF;
     flex: none;
     order: 0;
     flex-grow: 0;
+    object-fit: cover;
 }
 
 .formcontato__text{
+    font-size: medium;
+    font-weight: 50px;
+    display: inline-block;
 
 
 }
@@ -48,6 +57,7 @@
 }
 
 .formcontato__subtext{
+    display: flex;
     font-size: 1.5rem;
     font-weight: 100;
     padding: 0rem 5rem;

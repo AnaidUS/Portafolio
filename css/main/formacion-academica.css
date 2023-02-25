@@ -1,8 +1,21 @@
 .academic{
     align-items: center;
+    border: 0.02rem solid #ffffff;
+    background: rgb(253, 253, 253);
+    flex-direction: column;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 0;
+    width: 100%;
+    height: auto;
+    border: 1px solid #ffffff;
 }
 
 .academic__title{
+    display: flex;
     font-size: 3rem;
     font-weight: 100;
     text-decoration: solid;
@@ -12,7 +25,7 @@
 
 .academic__courses{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .academic__courses__box{
@@ -39,18 +52,22 @@
 }
 
 .academic__courses__item__img{
+    display: inline-block;
     list-style: none;
-    width: 5rem;
+    margin-top: 2rem;
+    margin-left: 0;
+    padding: 0.1rem;
+    border: 0.25rem solid #ffffff;
     display: block;
     margin-bottom: 1.2rem;
-    text-align: center;
+    text-align: left;
 }
 
 .academic__courses__item__title{
-    
+    text-align: right;
 }
 
 .academic__courses__item__subtitle{
-
+    text-align: right;
 }
 

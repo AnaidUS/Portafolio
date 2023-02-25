@@ -24,20 +24,26 @@
 .experiencie__box{
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row-reverse;
+    flex-direction: row;
     gap: 1rem;
 }
 
 .experience__img{
     list-style: none;
     display: block;
-    margin-bottom: 1.2rem;
+    margin: 2rem 1.5rem;
+    padding: auto;
+    border: 1rem solid #ffffff;
     text-align: center;
     width: 50%;
 }
 
 .experience__info{
-
+    width: 25%;
+    height: 25%;
+    margin: 1rem;
+    padding: 1rem;
+    border:1rem solid #ffffff;
 }
 
 .experience__title{
@@ -48,25 +54,33 @@
 }
 
 .experience__text{
-
+    font-size: 15px;
 }
 
 .experience__description{
+    flex-direction: column;
+    flex-wrap: wrap;
 
 }
 
 .experience__repo{
-
+    width:2rem;
+    height: 2rem;
+    text-decoration: none;
+    text-align: center;
 }
 
 .experiencia__botao--repo{
-
+    text-decoration: none;
 }
 
 .experience__demo{
-
+    width:2rem;
+    height: 2rem;
+    text-decoration: none;
+    text-align: center;
 }
 
 .experience__botao--demo{
-
+    text-decoration: none;
 }
