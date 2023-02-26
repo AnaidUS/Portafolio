@@ -1,16 +1,20 @@
-.form__contato{
-   display: flex; 
-   overflow: hidden;
-   flex-wrap: wrap;
+.form__contacto{
+   padding: 0.5rem;
+   margin: 1rem 0rem;
+   border: 1rem solid #FFFFFF;
+   display:flex;
+   flex-direction: row;
+   flex-wrap: nowrap;
 }
 
 .formcontato__contacto{
+    width: 500px;;
+    padding: 0.5rem;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row nowrap;
     justify-content: space-around;
-    align-items: flex-start;
-    align-content: flex-start;
+    align-items: stretch;
 }
 
 .formcontato--esquerda{
@@ -18,50 +22,35 @@
 }
 
 .formcontato__img{
-    width: 500px;
-    height: 400px;
-    padding: auto;
-    margin: auto;
-    border: 1px solid #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    object-fit: cover;
-}
-
-.formcontato__text{
-    font-size: medium;
-    font-weight: 50px;
-    display: inline-block;
-
-
-}
-
-.todo__texto{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 8px;
-
-    width: 656px;
-    height: 84px;
-}
-
-.formcontato__title{
-    font-size: 3rem;
-    font-weight: 100;
-    text-decoration: solid;
-    margin-bottom: 1rem;
     
 }
 
-.formcontato__subtext{
-    display: flex;
-    font-size: 1.5rem;
+.formcontato__text{
+    
+}
+
+.todo__texto{
+   width: 50%;
+}
+
+h2.formcontato__title{
+    font-size: 3rem;
     font-weight: 100;
-    padding: 0rem 5rem;
-    text-align:inherit;
+    text-decoration: solid;
+    margin-bottom: 5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.formcontato__subtext{
+   width: 100%;
+   margin: 0.5rem 0;
+   padding: 0.25rem;
+   border: 0.025rem solid #FFFFFF;
+   display: inline-block;
+    font-weight: 500;
+   font-size: 15px;
+   text-align: justify;
 }
 
 .formcontato__form{
@@ -71,8 +60,8 @@
     width: 30rem;
     background-image: linear-gradient(120deg, rgb(166, 192, 254) 0%, rgb(246, 128, 132) 100%);
     padding: 3rem;
-    margin: auto;
-    margin-top: 100px;
+    margin: 1.25rem;
+    margin-top: 50px;
 }
 
 .formcontato__input{
@@ -87,6 +76,7 @@
 }
 
 .formcontato__textarea{
+    max-width: 350px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
     display: flex;

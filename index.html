@@ -247,23 +247,23 @@
         </section>
             
     <!-- Sección de Contacto -->
-        <section class="form__contato" id="contacto">
+        <section class="form__contacto" id="contacto">
             <div  class="formcontato__contacto">
-                <div class="formcontato--esquerda">
-                    <img class="formcontato__img" src="img/contacto_1.png">
-                </div>
                 <div class="formcontato__text">
                     <div class="todo__texto">
                     <h2 class="formcontato__title">Contacto</h2>
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
                 </div>
+                <div class="formcontato--esquerda">
+                    <img class="formcontato__img" src="img/contact_image.png">
+                </div>
                     <!--Parte del formulario-->
                     <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombres" id="nombres" placeholder="Nombre">
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                        <input class="formcontato__input" type="text" name="nombres" id="nombres" placeholder="Nombre" required>
+                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail" required>
                         <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" required></textarea>
 
                         <button type="submit" class="formcontato__boton">
                             <span class="text">Enviar</span>
